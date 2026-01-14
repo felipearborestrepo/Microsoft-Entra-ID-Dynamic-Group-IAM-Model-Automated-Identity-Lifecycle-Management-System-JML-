@@ -56,6 +56,7 @@ Create baseline users to simulate departments and drive automation.
 <img width="828" height="604" alt="Screenshot 2026-01-14 083227" src="https://github.com/user-attachments/assets/a609382a-37a1-4669-b0e8-cb36f493fce6" />
 
 <img width="849" height="597" alt="Screenshot 2026-01-14 083243" src="https://github.com/user-attachments/assets/e7681491-5bc7-47cf-ae72-33df35a087c6" />
+
 ---
 
 ## Part 2 — Create Dynamic Groups (Automation Engine)
@@ -68,25 +69,22 @@ Dynamic groups automatically place users into the correct department group based
 - Name: `IAM-IT-Users-Dynamic`
 - Type: Security
 - Membership: Dynamic user
-- Rule:
-```text
+
+Rule:
+Copy code
 (user.department -eq "IT")
 ✅ HR Dynamic Group
 Name: IAM-HR-Users-Dynamic
 
 Rule:
-
-text
 Copy code
 (user.department -eq "HR")
 ✅ Finance Dynamic Group
 Name: IAM-Finance-Users-Dynamic
 
 Rule:
-
 Copy code
 (user.department -eq "Finance")
-```text
 
 📸 Screenshots
 <img width="732" height="491" alt="Screenshot 2026-01-14 084649" src="https://github.com/user-attachments/assets/82897a41-e4e6-4aef-8c1a-c0a2419ffa1b" />
