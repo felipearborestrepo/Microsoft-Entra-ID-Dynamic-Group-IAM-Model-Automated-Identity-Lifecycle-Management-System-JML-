@@ -84,11 +84,11 @@ Name: IAM-Finance-Users-Dynamic
 
 Rule:
 
-text
 Copy code
 (user.department -eq "Finance")
-📸 Screenshots
+```text
 
+📸 Screenshots
 <img width="732" height="491" alt="Screenshot 2026-01-14 084649" src="https://github.com/user-attachments/assets/82897a41-e4e6-4aef-8c1a-c0a2419ffa1b" />
 
 <img width="1357" height="600" alt="Screenshot 2026-01-14 084716" src="https://github.com/user-attachments/assets/624a4e31-fed7-4d37-9d08-9e2e4ff67f0b" />
