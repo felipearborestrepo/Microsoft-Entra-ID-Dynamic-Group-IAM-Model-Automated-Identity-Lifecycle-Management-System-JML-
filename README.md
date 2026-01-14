@@ -4,6 +4,8 @@
 **Category:** Identity & Access Management / Cloud Security  
 **Technologies:** Microsoft Entra ID, Dynamic Groups, Enterprise Applications, Conditional Access, PIM, Audit Logs  
 
+<img width="1536" height="1024" alt="0aeb6735-27b1-4944-b845-e07a3c99778d" src="https://github.com/user-attachments/assets/30862408-1981-4a78-b093-4cedda38806e" />
+
 ---
 
 # 📘 Project Overview
